@@ -7,17 +7,35 @@
 
     <!-- fonts and stylesheets -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel = "stylesheet" type = "text/css" href = "assets/stylesheets/index.css" />
+    <link rel="stylesheet" type="text/css" href="assets/stylesheets/index.css" />
 
     <!-- HTML elements, critical and otherwise-->
     <script type="text/javascript" src="critical.bundle.js" ></script>
     <script defer type="text/javascript" src="deferable.bundle.js"></script>
   </head>
   <body>
-    <lbwc-app-bar 
-        mult=4
-        nav-links="home:/index.html;about:/about.html;review:/review.html;contact:/contact.html">
-      <img src="assets/images/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
-    </lbwc-app-bar>
+    <div id="root">
+      <lbwc-app-bar 
+          mult=4
+          nav-links="home:/index.html;blog:/pages/blog.html;about:/pages/about.html">
+        <img src="assets/images/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
+      </lbwc-app-bar>
+      <p>
+        Hi i'm Nathan Tranquilla. I'm a husband and father of 2 living in New Brunswick Canada.
+      </p>
+      <p>
+        I'm currently employed as a Senior Software Engineer at Cvent.
+      </p>
+      <p>
+        This blog is my outlet in many ways; I love to write, and I like exploring new technology,
+        in particular new web technology. Head over the <a href="/pages/about.html">about</a> section to the 
+        technology i'm using for this site, and to see the inspirations for this lean website.
+      </p>
+      <p>
+        Below is a list of some of the things I've written. Enjoy!
+      </p>
+      <hr />
+      <lbwc-index-page title="Posts"></lbwc-index-page>
+    </div>
   </body>
 </html>
