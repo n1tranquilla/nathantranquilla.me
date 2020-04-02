@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack",
+    "build": "webpack && eleventy --input=src/ --formats=md,njk",
     "start": "webpack-dev-server --open",
     "watch": "webpack --watch"
   },
@@ -21,8 +21,11 @@
   },
   "homepage": "https://github.com/n1tranquilla/personal-blog#readme",
   "devDependencies": {
+    "@11ty/eleventy": "^0.10.0",
+    "css-loader": "^3.4.2",
     "glob": "^7.1.6",
     "html-webpack-plugin": "^4.0.3",
+    "style-loader": "^1.1.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"

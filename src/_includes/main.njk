@@ -1,0 +1,29 @@
+---
+title: nathantranquilla.me
+---
+<!doctype html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts and stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+
+    <script type="text/javascript" src="{{ relativeRoot }}assets/js/critical.bundle.js"></script>
+    <script defer type="text/javascript" src="{{ relativeRoot }}assets/js/deferable.bundle.js"></script>
+
+  </head>
+  <body>
+    <div id="root">
+      <lbwc-app-bar 
+          mult=4
+          nav-links="home:/index.html;blog:/blog;about:/about">
+        <img src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
+      </lbwc-app-bar>
+      {{ content | safe }}
+    </div>
+  </body>
+    
+</html>

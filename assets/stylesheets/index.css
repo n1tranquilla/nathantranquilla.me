@@ -15,27 +15,12 @@
 * {
     box-sizing: border-box;
     font-family: var(--lbwc-body-font-family);
-    color: var(--lbwc-text-color);
-}
-
-html {
-    width: 100vw;
-    height: 100vh;
-}
-
-p {
-    font-size: 0.9rem;
-}
-
-body {
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    background-color: var(--lbwc-primary-color);
 }
 
 #root {
     padding: 0.5rem;
-    width: 100vw;
-    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
 }
