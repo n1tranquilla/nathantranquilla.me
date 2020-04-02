@@ -7,17 +7,13 @@
 
     <!-- fonts and stylesheets -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="../assets/stylesheets/index.css" />
-
-    <!-- HTML elements, critical and otherwise-->
-    <script type="text/javascript" src="../critical.bundle.js" ></script>
-    <script defer type="text/javascript" src="../deferable.bundle.js"></script>
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/index.css" />
   </head>
   <body>
     <div id="root">
         <lbwc-app-bar 
             mult=4
-            nav-links="home:/index.html;blog:/pages/blog.html;about:/pages/about.html">
+            nav-links="home:/index.html;blog:/pages/blog.html;about:/about.html">
             <img src="../assets/images/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
         </lbwc-app-bar>
         <p>
@@ -70,5 +66,5 @@
             and then rest is just html. 
         </p>
     </div>
-  </body>
+  <script src="../../dist/critical.bundle.js"></script><script src="../../dist/deferable.bundle.js"></script><script src="critical.bundle.js"></script><script src="deferable.bundle.js"></script></body>
 </html>

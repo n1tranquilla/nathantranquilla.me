@@ -21,6 +21,8 @@
   },
   "homepage": "https://github.com/n1tranquilla/personal-blog#readme",
   "devDependencies": {
+    "glob": "^7.1.6",
+    "html-webpack-plugin": "^4.0.3",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11",
     "webpack-dev-server": "^3.10.3"

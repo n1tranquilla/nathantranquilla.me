@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+  <head>
+    <title>nathantranquilla.me</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- fonts and stylesheets -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheets/index.css" />
+  </head>
+  <body>
+    <div id="root">
+        <lbwc-app-bar 
+            mult=4
+            nav-links="home:/index.html;blog:/pages/blog.html;about:/about.html">
+            <img src="../assets/images/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
+        </lbwc-app-bar>
+        <p>
+            One of my first motivations for launching a new website was to explore <a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">Web Components</a>
+            I've always wanted to work on building a design language, either privately or for business.
+            Using Web Components, I've encapsulated my own design decisions into a <a href="https://github.com/n1tranquilla/lean-blog-web-components">handful of components 
+            suitable for blog</a> using <a href="https://www.leanternet.com/principles/">lean design principles</a>.
+        </p>
+        <p>
+            One of the neat things I've been able to do is incorporate css variables into Web Components
+            to encapsulate basic design principles but expose some high-level rules, which has a configuration feel.
+        </p>
+        <p>
+            For example click this button to cycle through some text colors <button onclick="cycleTextColor();">click me!</button>
+        </p>
+        <p>
+            Or put a hex value in to adjust the primary and accent colors:
+            
+            <br/>
+            <label>primary</label>
+            <input size="7" placeholder="#000000" id="primary-color" type="text"></input>
+            <button onclick="updateColor('primary')()">update</button>
+            <br/>
+            <label>accent</label>
+            <input size="7" placeholder="#af6Ab5" id="accent-color" type="text"></input>
+            <button onclick="updateColor('accent')()">update</button onclick="setAccentColor()">
+        
+        </p>
+        <script type="text/javascript">
+            var i=0
+            var colors = ["red","green","blue","grey"];
+            function cycleTextColor() { 
+                var root = document.body;
+                root.style.cssText += `--lbwc-text-color: ${colors[i++ % colors.length]}`
+            }
+            function updateColor(type) {
+                return function() {
+                    var color = document.getElementById(`${type}-color`)
+                    var root = document.body;
+                    root.style.cssText += `--lbwc-${type}-color: ${color.value}`
+                    return false;
+                }
+            }
+        </script>
+        <p>
+            I knew I wanted to build a static site.
+            I've used Gatsby in the past, but this time I decided to go even simpler. There is nothing complicated
+            about this site. I'm not using React to build and reconcile DOM based on application state, there is no special routing;
+            links just link to regular html pages. Each page imports the basic web components needed to frame the page,
+            and then rest is just html. 
+        </p>
+    </div>
+  <script src="../../dist/critical.bundle.js"></script><script src="../../dist/deferable.bundle.js"></script></body>
+</html>

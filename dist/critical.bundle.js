@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/index.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/javascript/index.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -97,15 +97,15 @@ eval("(function () {\n\n    const convertNavString = str => {\n        return st
 
 /***/ }),
 
-/***/ "./src/index.js":
-/*!**********************!*\
-  !*** ./src/index.js ***!
-  \**********************/
+/***/ "./src/javascript/index.js":
+/*!*********************************!*\
+  !*** ./src/javascript/index.js ***!
+  \*********************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/app-bar */ \"./node_modules/lean-blog-web-components/src/app-bar/index.js\");\n/* harmony import */ var lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/index.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/app-bar */ \"./node_modules/lean-blog-web-components/src/app-bar/index.js\");\n/* harmony import */ var lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_app_bar__WEBPACK_IMPORTED_MODULE_0__);\n\n\n//# sourceURL=webpack:///./src/javascript/index.js?");
 
 /***/ })
 

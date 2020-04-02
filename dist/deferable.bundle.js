@@ -81,7 +81,7 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./src/deferable.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/javascript/deferable.js");
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -108,15 +108,15 @@ eval("(function() {\n\n    const convertPosts = (str) => {\n        return str.s
 
 /***/ }),
 
-/***/ "./src/deferable.js":
-/*!**************************!*\
-  !*** ./src/deferable.js ***!
-  \**************************/
+/***/ "./src/javascript/deferable.js":
+/*!*************************************!*\
+  !*** ./src/javascript/deferable.js ***!
+  \*************************************/
 /*! no exports provided */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/article */ \"./node_modules/lean-blog-web-components/src/article/index.js\");\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lean-blog-web-components/src/index-page */ \"./node_modules/lean-blog-web-components/src/index-page/index.js\");\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/deferable.js?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/article */ \"./node_modules/lean-blog-web-components/src/article/index.js\");\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lean-blog-web-components/src/index-page */ \"./node_modules/lean-blog-web-components/src/index-page/index.js\");\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/javascript/deferable.js?");
 
 /***/ })
 

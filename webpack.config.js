@@ -1,10 +1,16 @@
 const path = require('path');
+const glob = require('glob');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+
+const pages = glob.sync('src/**/*.html');
+
+console.log(pages)
 
 module.exports = {
   mode: 'development',
   entry: {
-      critical: './src/index.js',
-      deferable: './src/deferable.js'
+      critical: './src/javascript/index.js',
+      deferable: './src/javascript/deferable.js'
   },
   output: {
     filename: '[name].bundle.js',
@@ -12,5 +18,11 @@ module.exports = {
   },
   devServer: {
     contentBase: './dist' 
-  }
+  },
+  plugins: [
+    ...pages.map(page => new HtmlWebpackPlugin({
+      template: page,
+      filename: page.replace('src/html/','')
+    }))
+  ]
 };
