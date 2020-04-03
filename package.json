@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && eleventy --input=src/ --formats=md,njk",
+    "build": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/",
     "start": "webpack-dev-server --open",
     "watch": "webpack --watch"
   },
