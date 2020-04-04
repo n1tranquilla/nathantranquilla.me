@@ -2,6 +2,7 @@
 layout: main.njk
 title: Mauris congue sem vel magna
 relativeRoot: ../../
+tags: post
 ---
 
 ## Mauris congue sem vel magna

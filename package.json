@@ -6,7 +6,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "build-assets": "webpack",
     "build": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/",
-    "prestart": "npm run build && webpack --watch &",
+    "build-ghp": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/ --pathprefix=nathantranquilla.me",
+    "prestart": "npm run build",
     "start": "eleventy --serve --output=docs/"
   },
   "repository": {

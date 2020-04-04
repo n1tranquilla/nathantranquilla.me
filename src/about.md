@@ -2,6 +2,7 @@
 layout: main.njk
 title: nathantranquilla.me - about
 relativeRoot: ../
+tags: nav
 ---
 
 # Lorem Ipsum
