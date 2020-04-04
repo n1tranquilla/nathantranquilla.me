@@ -81,22 +81,10 @@
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = "./assets/js/deferable.js");
+/******/ 	return __webpack_require__(__webpack_require__.s = "./src/assets/js/deferable.js");
 /******/ })
 /************************************************************************/
 /******/ ({
-
-/***/ "./assets/js/deferable.js":
-/*!********************************!*\
-  !*** ./assets/js/deferable.js ***!
-  \********************************/
-/*! no exports provided */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/article */ \"./node_modules/lean-blog-web-components/src/article/index.js\");\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lean-blog-web-components/src/index-page */ \"./node_modules/lean-blog-web-components/src/index-page/index.js\");\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./assets/js/deferable.js?");
-
-/***/ }),
 
 /***/ "./node_modules/lean-blog-web-components/src/article/index.js":
 /*!********************************************************************!*\
@@ -117,6 +105,18 @@ eval("class Article extends HTMLElement {\n    constructor() {\n        super();
 /***/ (function(module, exports) {
 
 eval("(function() {\n\n    const convertPosts = (str) => {\n        return str.split(';;')\n            .filter(str=>str.length>0)\n            .reduce((agg,postStr)=>{\n                const post={}\n                const entries = postStr.split(';');\n                entries.forEach(entry => {\n                    const [key,value] = entry.split(':');\n                    post[key] = value\n                })\n                agg.push(post)\n                return agg;\n            },[])\n    }\n\n    const createLiHtml = meta => {\n        return `<li>\n            <a href=\"${meta.href}\">${meta.title}</a>\n            <div class=\"meta\">\n                <span class=\"date\">${meta.date}</span>\n                ${meta.teaser ? `<i class=\"description\">${meta.teaser}</i>` : \"\"}\n            </div>\n        </li>`\n    \n    }\n\n    class IndexPage extends HTMLElement {\n        constructor() {\n            super();\n\n            this.attachShadow({ mode: 'open' });\n\n            // creating a container for the editable-list component\n            const indexPage = document.createElement('div');\n\n            // adding a class to our container for the sake of clarity\n            indexPage.classList.add('root');\n\n            const title = this.getAttribute('title') || ''\n            const postsAttr = this.getAttribute('posts') || ''\n            const posts = convertPosts(postsAttr);\n\n            // creating the inner HTML of the editable list element\n            indexPage.innerHTML = `\n                <style>\n                    h1 {\n                        font-size: 1.5rem;\n                        font-family: var(--lbwc-title-font-family);\n                    }\n                    ul {\n                        list-style-type: none;\n                        padding-left: 0;\n                    }\n                    li {\n                        margin: calc(var(--lbwc-spacing-unit)*0.5rem) 0;\n                    }\n                    a {\n                        font-family: var(--lbwc-title-font-family);\n                        text-decoration: none;\n                    }\n                    a:hover{\n                        text-decoration: underline;\n                    }\n                    .meta {\n                        opacity: 0.75;\n                        font-size: 0.7rem;\n                    }\n                    .description {\n                        white-space: nowrap;\n                        text-overflow: ellipsis;\n                        width: 100%;\n                        max-width: 400px;\n                        display: block;\n                        overflow: hidden;\n                    }\n                </style>\n                <h1>${title}</h1>\n                <ul>\n                    ${posts.map(createLiHtml).join('')}\n                <ul>\n            `;\n\n            // appending the container to the shadow DOM\n            this.shadowRoot.appendChild(indexPage);\n\n            this.appendPosts = this.appendPosts.bind(this);\n            this.ulEl = this.shadowRoot.querySelector('ul');\n            this.titleEl = this.shadowRoot.querySelector('h1');\n        }\n\n        get posts() {\n            return this.getAttribute('posts') || [];\n        }\n\n        set posts(value) {\n            this.setAttribute('posts',value)\n        }\n\n        get title() {\n            return this.getAttribute('title') || ''\n        }\n\n        set title(value) {\n            this.setAttribute('title',value)\n        }\n\n        static get observedAttributes() {\n            return ['title','posts'];\n        }\n\n        appendPosts(str) {\n            const posts = convertPosts(str);\n            this.ulEl.innerHTML = posts.map(createLiHtml).join('')\n        }\n\n        attributeChangedCallback(name, oldValue, newValue) {\n            switch (name) {\n                case 'title': {\n                    this.titleEl.innerHTML = newValue;\n                    break;\n                }\n                case 'posts': {\n                    this.appendPosts(newValue);\n                    break;\n                }\n                default: {\n                    break;\n                }\n            }\n        }\n    }\n\n    customElements.get('lbwc-index-page') || customElements.define('lbwc-index-page', IndexPage);\n\n})();\n\n//# sourceURL=webpack:///./node_modules/lean-blog-web-components/src/index-page/index.js?");
+
+/***/ }),
+
+/***/ "./src/assets/js/deferable.js":
+/*!************************************!*\
+  !*** ./src/assets/js/deferable.js ***!
+  \************************************/
+/*! no exports provided */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! lean-blog-web-components/src/article */ \"./node_modules/lean-blog-web-components/src/article/index.js\");\n/* harmony import */ var lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_article__WEBPACK_IMPORTED_MODULE_0__);\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! lean-blog-web-components/src/index-page */ \"./node_modules/lean-blog-web-components/src/index-page/index.js\");\n/* harmony import */ var lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(lean_blog_web_components_src_index_page__WEBPACK_IMPORTED_MODULE_1__);\n\n\n\n\n//# sourceURL=webpack:///./src/assets/js/deferable.js?");
 
 /***/ })
 

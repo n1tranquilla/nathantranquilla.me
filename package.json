@@ -4,9 +4,10 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "build-assets": "webpack",
     "build": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/",
-    "start": "webpack-dev-server --open",
-    "watch": "webpack --watch"
+    "prestart": "npm run build && webpack --watch &",
+    "start": "eleventy --serve --output=docs/"
   },
   "repository": {
     "type": "git",
@@ -22,13 +23,10 @@
   "homepage": "https://github.com/n1tranquilla/personal-blog#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.10.0",
-    "css-loader": "^3.4.2",
-    "glob": "^7.1.6",
-    "html-webpack-plugin": "^4.0.3",
-    "style-loader": "^1.1.3",
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^5.1.1",
     "webpack": "^4.42.1",
-    "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-cli": "^3.3.11"
   },
   "dependencies": {
     "lean-blog-web-components": "^0.1.0"

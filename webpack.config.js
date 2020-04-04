@@ -1,21 +1,23 @@
 const path = require('path');
+const CopyPlugin = require('copy-webpack-plugin');
+const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 
 module.exports = {
   mode: 'development',
   entry: {
-      critical: './assets/js/index.js',
-      deferable: './assets/js/deferable.js'
+      critical: './src/assets/js/index.js',
+      deferable: './src/assets/js/deferable.js'
   },
   output: {
-    filename: '[name].bundle.js',
-    path: path.resolve(__dirname, 'docs/assets/js'),
+    filename: 'assets/js/[name].bundle.js',
+    path: path.resolve(__dirname, 'docs'),
   },
-  module: {
-    rules: [
-      {
-        test: /\.css$/i,
-        use: ['style-loader', 'css-loader'],
-      }
-    ],
-  },
+  plugins: [
+    new CleanWebpackPlugin({ 
+      cleanOnceBeforeBuildPatterns: ['!**/*', 'assets']
+    }),
+    new CopyPlugin([
+      { from: 'src/', to: '', ignore: ['*.js','*.njk','*.md'] }
+    ]),
+  ]
 };
