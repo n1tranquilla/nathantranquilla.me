@@ -4,6 +4,7 @@ title: Home
 relativeRoot: ./
 tags: nav
 includeIndex: true
+date: 2020-04-01
 ---
 
 You've arrived! This is own personal outlet for writing and for trying cool new web stuff.
