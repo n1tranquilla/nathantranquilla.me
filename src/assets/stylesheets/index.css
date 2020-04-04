@@ -17,6 +17,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: var(--lbwc-body-font-family);
+    letter-spacing: 1px;
+}
+
+body {
+    overflow-y: overlay;
 }
 
 #root {
@@ -33,4 +38,24 @@
 
 lbwc-app-bar {
     margin-bottom: 3rem;
+}
+
+p {
+    margin: calc(var(--lbwc-spacing-unit)*1rem) 0;
+}
+
+code {
+    background: #f4f4f4;
+    border-left: 3px solid var(--lbwc-accent-color);
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: calc(var(--lbwc-spacing-unit)*1rem) 0;
+    max-width: 100%;
+    overflow: auto;
+    padding: calc(var(--lbwc-spacing-unit)*1rem);
+    display: block;
+    word-wrap: break-word;
 }

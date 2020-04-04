@@ -7,8 +7,8 @@
     "build-assets": "webpack",
     "build": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/",
     "build-ghp": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/ --pathprefix=nathantranquilla.me",
-    "prestart": "npm run build",
-    "start": "eleventy --serve --output=docs/"
+    "poststart": "webpack --watch",
+    "start": "eleventy --serve --input=src/ --formats=md,njk --output=docs/ &"
   },
   "repository": {
     "type": "git",

@@ -27,8 +27,9 @@ relativeRoot: ./
       <main>
         {{ content | safe }}
         {% if includeIndex %}
+            <hr/>
             <lbwc-index-page 
-                title="Lorem Ipsum" 
+                title="Posts" 
                 posts="{% for post in collections.post %}title:{{post.data.title}};href:{{post.data.url}};data{post.data.date}};teaser:{{post.data.teaser}};;{% endfor %}"
             </lbwc-index-page>
         {% endif %}
