@@ -5,8 +5,8 @@ const { CleanWebpackPlugin } = require('clean-webpack-plugin');
 module.exports = {
   mode: 'development',
   entry: {
-      critical: './src/assets/js/index.js',
-      deferable: './src/assets/js/deferable.js'
+      critical: './src/webpack/assets/js/index.js',
+      deferable: './src/webpack/assets/js/deferable.js'
   },
   output: {
     filename: 'assets/js/[name].bundle.js',
@@ -17,7 +17,7 @@ module.exports = {
       cleanOnceBeforeBuildPatterns: ['!**/*', 'assets']
     }),
     new CopyPlugin([
-      { from: 'src/', to: '', ignore: ['*.js','*.njk','*.md'] }
+      { from: 'src/webpack', to: '' }
     ]),
   ]
 };

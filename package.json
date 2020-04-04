@@ -4,11 +4,10 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-assets": "webpack",
-    "build": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/",
-    "build-ghp": "webpack && eleventy --input=src/ --formats=md,njk --output=docs/ --pathprefix=nathantranquilla.me",
-    "poststart": "webpack --watch",
-    "start": "eleventy --serve --input=src/ --formats=md,njk --output=docs/ &"
+    "build": "webpack && eleventy --input=src/eleventy --formats=md,njk --output=docs/",
+    "build-ghp": "webpack && eleventy --input=src/eleventy --formats=md,njk --output=docs/ --pathprefix=nathantranquilla.me",
+    "prestart": "webpack --watch &",
+    "start": "eleventy --serve --input=src/eleventy --formats=md,njk --output=docs/"
   },
   "repository": {
     "type": "git",
