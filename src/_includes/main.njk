@@ -21,16 +21,16 @@ relativeRoot: ./
     <div id="root">
       <lbwc-app-bar 
           mult=4
-          nav-links="home:/index.html;blog:/blog;about:/about">
+          nav-links="{% for nav in collections.nav %}{{nav.data.title}}:{{nav.url}};{% endfor %}">
         <img src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
       </lbwc-app-bar>
       <main>
         {{ content | safe }}
         {% if includeIndex %}
-            <hr/>
+            {% if content %} <hr/> {% endif %}
             <lbwc-index-page 
                 title="Posts" 
-                posts="{% for post in collections.post %}title:{{post.data.title}};href:{{post.data.url}};data{post.data.date}};teaser:{{post.data.teaser}};;{% endfor %}"
+                posts="{% for post in collections.post %}title:{{post.data.title}};href:{{post.url}};data{post.data.date}};teaser:{{post.data.teaser}};;{% endfor %}"
             </lbwc-index-page>
         {% endif %}
       </main>

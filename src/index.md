@@ -1,6 +1,6 @@
 ---
 layout: main.njk
-title: nathantranquilla.me
+title: Home
 relativeRoot: ./
 tags: nav
 includeIndex: true
