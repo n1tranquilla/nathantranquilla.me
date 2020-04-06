@@ -30,7 +30,7 @@ relativeRoot: ./
             {% if content %} <hr/> {% endif %}
             <lbwc-index-page 
                 title="Posts" 
-                posts="{% for post in collections.post | reverse %}title:{{post.data.title}};href:{{post.url}};date:{{post.date.toLocaleDateString([], {year: 'numeric', day: '2-digit', month: '2-digit'}) }};teaser:{{post.data.teaser}};;{% endfor %}"
+                posts="{% for post in collections.post | reverse %}title:{{post.data.title}};href:{{post.url}};date:{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }};teaser:{{post.data.teaser}};;{% endfor %}"
             </lbwc-index-page>
         {% endif %}
       </main>

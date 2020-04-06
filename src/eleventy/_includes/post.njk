@@ -3,6 +3,6 @@ layout: main.njk
 relativeRoot: ../../
 tags: post
 ---
-<h1>{{ title }}</h1>
-
-{{ content | safe }}
+<lbwc-article title="{{ title }}" date="{{ date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }}">
+    {{ content | safe }}
+</lbwc-article>
