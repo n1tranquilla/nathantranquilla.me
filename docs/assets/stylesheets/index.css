@@ -42,6 +42,7 @@ lbwc-app-bar {
 
 p {
     margin: calc(var(--lbwc-spacing-unit)*1rem) 0;
+    font-size: 0.85rem;
 }
 
 h1,h2,h3,h4,h5,h6 {

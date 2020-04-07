@@ -1,7 +1,8 @@
 ---
 layout: post.njk
 title: The COVID-19 Diaries - Part 3
-teaser: 
+teaser: What was all the hurry about anyway? You know what I mean... before quarantine.
+date: 2020-04-06
 ---
 What was all the hurry about anyway? You know what I mean... before quarantine. It seems like I was running around always in a hurry, always pushing the speed limit just a little, getting upset if I didn't make that yellow light. It seems like Saturdays were always a whilwind of inventory, meal-planning, going grocery shopping, keeping the kids entertained somewhere, often the mall, and then returning home to unpack and settle in for the afternoon. But with the restrictions, we've elected one of us as the shopper to minimize the chance of exposure. 
 
