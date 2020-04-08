@@ -17,7 +17,7 @@ module.exports = {
       cleanOnceBeforeBuildPatterns: ['!**/*', 'assets']
     }),
     new CopyPlugin([
-      { from: 'src/webpack', to: '' }
+      { from: 'src/webpack', to: '', ignore: ['**/*.js'] }
     ]),
   ]
 };
