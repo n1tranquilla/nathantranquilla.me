@@ -1,0 +1,14 @@
+---
+layout: main.njk
+pagination:
+    data: categories
+    size: 1
+    alias: tag
+permalink: "/collections/{{ tag.name | slug }}/"
+relativeRoot: ../../../
+---  
+{% set collection = tag.tag %}
+<lbwc-index-page 
+    title="{{ tag.name }}" 
+    posts="{% for post in collections.all | tagFilter(collection) | reverse %}title:{{ post.data.title }};href:{{ post.url }};date:{{ post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }};teaser:{{ post.data.teaser }};;{% endfor %}"
+</lbwc-index-page>
