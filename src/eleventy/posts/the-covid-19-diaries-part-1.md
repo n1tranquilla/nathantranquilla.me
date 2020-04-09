@@ -4,7 +4,7 @@ title: The COVID-19 Diaries - Part 1
 date: 2020-04-01T12:00:00.000Z
 teaser: Life is certainly much different than it was a month ago. One month ago I was making plans for a work trip to Virginia.
 tags:
-  - covid19
+  - covid-19 diaries
   - post
 ---
 Life is certainly much different than it was a month ago. One month ago I was making plans for a work trip to Virginia. One month ago the global case count for COVID-19 was less than 100,000 and mostly in China, while today the count is tenfold. One month ago, I was taking a bus to work, opening doors, pressing elevator buttons, and today we take trips to the superstore with gloves and sanitizer, wait in long line-ups with few people in them (paradox), and wash produce and loose change.  

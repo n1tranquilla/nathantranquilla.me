@@ -7,4 +7,8 @@ module.exports = function(eleventyConfig) {
             return tags && tags.includes(tag);
         });
     });
+
+    eleventyConfig.addNunjucksFilter("strExclude", function(value,str) {
+        return value.filter(v=>v!==str);
+    })
   };

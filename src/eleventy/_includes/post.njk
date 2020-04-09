@@ -3,6 +3,6 @@ layout: main.njk
 relativeRoot: ../../
 tags: post
 ---
-<lbwc-article title="{{ title }}" date="{{ date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }}">
+<lbwc-article title="{{ title }}" tags="{% for tag in tags | strExclude("post") %}name:{{tag}};href:/collections/{{tag | slug}};;{% endfor %}" date="{{ date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }}">
     {{ content | safe }}
 </lbwc-article>
