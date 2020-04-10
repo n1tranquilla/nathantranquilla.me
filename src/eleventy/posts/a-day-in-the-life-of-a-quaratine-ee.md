@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: A day in the life of quarantines
-teaser: 
+teaser: We're getting outside a lot more these days to enjoy the sunshine. 
 date: 2020-04-09
 tags:
   - covid-19 diaries
