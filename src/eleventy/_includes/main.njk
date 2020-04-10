@@ -28,9 +28,18 @@ relativeRoot: ./
         {{ content | safe }}
         {% if includeIndex %}
             {% if content %} <hr/> {% endif %}
-            <lbwc-index-page 
-                title="Posts" 
-                posts="{% for post in collections.post | reverse %}title:{{post.data.title}};href:{{post.url}};date:{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) }};teaser:{{post.data.teaser}};;{% endfor %}"
+            <lbwc-index-page title="Posts"> 
+            {% for post in collections.post | reverse %}
+              <lbwc-list-entry 
+                title="{{post.data.title}}"
+                href="{{post.url}}"
+                date="{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}}"
+                teaser="{{post.data.teaser}}">
+                {% for tag in post.data.tags | tagExclude("post") %}
+                  <lbwc-tag href="/collections/{{ tag | slug }}" name="{{tag}}"></lbwc-tag>
+                {% endfor %}
+              </lbwc-list-entry>
+            {% endfor %}
             </lbwc-index-page>
         {% endif %}
       </main>
