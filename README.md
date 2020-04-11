@@ -11,6 +11,7 @@ Note: eleventy runs in watch mode while webpack does not (to avoid problems with
 ## Core technology and concepts
 ### eleventy
 > Eleventy is a simpler static site generator.
+
 I use [eleventy](https://www.11ty.dev/) to generate html from markdown. This allows me to build templates (and even nested templates) to ensure consistency across each page while developing. 
 
 Elventy also allows you to serve and watch content while in development so that changes to content is quickly reflected.
