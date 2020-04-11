@@ -6,6 +6,7 @@ pagination:
     alias: tag
 permalink: "/collections/{{ tag.name | slug }}/"
 relativeRoot: ../../../
+description: Lists posts on a topic
 ---  
 {% set collection = tag.tag %}
 <lbwc-index-page title="{{ tag.name }}">

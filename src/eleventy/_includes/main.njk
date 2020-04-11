@@ -7,8 +7,9 @@ relativeRoot: ./
   <head>
     <title>{{ title }}</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2/>
-    <meta name="theme-color" content="#00ff00">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2"/>
+    <meta name="theme-color" content="#ffffff">
+    <meta name="Description" content="{{ title }} - {{ date }}">
 
     <!-- fonts and stylesheets -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
@@ -28,10 +29,9 @@ relativeRoot: ./
   </head>
   <body>
     <div id="root">
-      <lbwc-app-bar 
-          mult=4
+      <lbwc-app-bar
           nav-links="{% for nav in collections.nav %}{{nav.data.title}}:{{nav.url}};{% endfor %}">
-        <img src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="padding-top: 2.5px"/>
+        <img src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="margin-bottom: 7.5px" alt="logo"/>
       </lbwc-app-bar>
       <main>
         {{ content | safe }}
