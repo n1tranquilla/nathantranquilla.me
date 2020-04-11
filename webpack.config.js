@@ -1,6 +1,10 @@
 const path = require('path');
 const CopyPlugin = require('copy-webpack-plugin');
 const { CleanWebpackPlugin } = require('clean-webpack-plugin');
+const glob = require('glob');
+
+const htmlFiles = glob.sync("./docs/**/*.html");
+const assetFiles = glob.sync("./docs/assets/*");
 
 module.exports = {
   mode: 'development',
@@ -13,9 +17,7 @@ module.exports = {
     path: path.resolve(__dirname, 'docs'),
   },
   plugins: [
-    new CleanWebpackPlugin({ 
-      cleanOnceBeforeBuildPatterns: ['!**/*', 'assets']
-    }),
+    new CleanWebpackPlugin(),
     new CopyPlugin([
       { from: 'src/webpack', to: '', ignore: ['**/*.js'] }
     ]),

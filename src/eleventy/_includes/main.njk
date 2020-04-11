@@ -3,19 +3,28 @@ title: nathantranquilla.me
 relativeRoot: ./
 ---
 <!doctype html>
-<html>
+<html lang="en">
   <head>
     <title>{{ title }}</title>
 
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2/>
+    <meta name="theme-color" content="#00ff00">
 
     <!-- fonts and stylesheets -->
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Ubuntu&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="{{ relativeRoot }}assets/stylesheets/index.css" />
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ relativeRoot }}apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ relativeRoot }}favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ relativeRoot }}favicon-16x16.png">
+    <link rel="manifest" href="{{ relativeRoot }}site.webmanifest">
 
     <script type="text/javascript" src="{{ relativeRoot }}assets/js/critical.bundle.js"></script>
     <script defer type="text/javascript" src="{{ relativeRoot }}assets/js/deferable.bundle.js"></script>
 
+    <script>
+      if ("serviceWorker" in navigator)
+        navigator.serviceWorker.register("{{ relativeRoot }}sw.js");
+    </script>
   </head>
   <body>
     <div id="root">

@@ -1,4 +1,11 @@
+const pluginPWA = require("eleventy-plugin-pwa");
+
 module.exports = function(eleventyConfig) {
+
+    eleventyConfig.addPlugin(pluginPWA, {
+        swDest: "./docs/sw.js",
+        globDirectory: "./docs"
+    });
     
     eleventyConfig.addNunjucksFilter("tagFilter", function(value,tag) {
         return value.filter(item => {
