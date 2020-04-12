@@ -25,9 +25,15 @@
   </head>
   <body>
     <div id="root">
-      <lbwc-app-bar
-          nav-links="Home:/;Posts:/posts/;About:/about/;">
-        <img src="../assets/img/logo.png" height="22" width="210" style="margin-bottom: 7.5px" alt="logo"/>
+      <lbwc-app-bar>
+        <img slot="logo" src="../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/">Home</lbwc-nav-link>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/posts/">Posts</lbwc-nav-link>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/about/">About</lbwc-nav-link>
+        
       </lbwc-app-bar>
       <main>
         <p>nathantranquilla.me exists in part as an outlet for trying cool new web stuff. One of the things I've been interested in trying out is <lbwc-a href="https://developer.mozilla.org/en-US/docs/Web/Web_Components">Web Components</lbwc-a> in the context of a shared elements library or for the purpose of encapsulating design decisions. In my case, I decided to use <lbwc-a href="https://www.leanternet.com/principles/">lean design principles</lbwc-a> and encapsulate them in a <lbwc-a href="https://github.com/n1tranquilla/lean-blog-web-components">shared blog components library</lbwc-a> which I'm using in this site. Check out the source code for this page and look for tags prefixed with <em>lbwc</em> to see them. eg. <code>&lt; lbwc-app-bar /&gt;</code></p>

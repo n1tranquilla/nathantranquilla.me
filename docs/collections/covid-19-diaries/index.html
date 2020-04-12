@@ -25,9 +25,15 @@
   </head>
   <body>
     <div id="root">
-      <lbwc-app-bar
-          nav-links="Home:/;Posts:/posts/;About:/about/;">
-        <img src="../../../assets/img/logo.png" height="22" width="210" style="margin-bottom: 7.5px" alt="logo"/>
+      <lbwc-app-bar>
+        <img slot="logo" src="../../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/">Home</lbwc-nav-link>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/posts/">Posts</lbwc-nav-link>
+        
+          <lbwc-nav-link role="link" slot="nav-links" href="/about/">About</lbwc-nav-link>
+        
       </lbwc-app-bar>
       <main>
           

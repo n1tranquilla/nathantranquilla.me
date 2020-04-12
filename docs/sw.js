@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "9bf226db715f8cdf7c22cf163ad5b809"
+    "revision": "9dc43de83511d669b0a81773e0213762"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/critical.bundle.js",
-    "revision": "5041fc93a11329aaae47e875d103c3a1"
+    "revision": "e050eda3f92afc6ed09e1cfac6a14dd9"
   },
   {
     "url": "assets/js/deferable.bundle.js",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "ee30f6bc3977755d5525ca0cbb88e8a9"
+    "revision": "784bef8c7179fb59ad748686aa607e19"
   },
   {
     "url": "favicon-16x16.png",
@@ -76,27 +76,27 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "66a5795fe9fb7d973a145d19906b7ea3"
+    "revision": "442196f7a907b5fbf1132467eaf06cc8"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
-    "revision": "cb114b31cef386aa1b600b84c80e3a8e"
+    "revision": "149e32e3ad3e871cd978f5d28b0ed05d"
   },
   {
     "url": "posts/index.html",
-    "revision": "eebdbb7abe767601c58d907a6717bea8"
+    "revision": "e9662350295a3222bc0ce80ab0072da2"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
-    "revision": "97ae325d88cc7b13cf27d4e4733339e4"
+    "revision": "c8d4541229914826c770263578a46d88"
   },
   {
     "url": "posts/the-covid-19-diaries-part-2/index.html",
-    "revision": "4c2f0cde2ac1c8e1a60bf004eb479d3d"
+    "revision": "01fa512078f841004175252b4a77e709"
   },
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
-    "revision": "77986c8e0b674a12d62dbd62b51283e3"
+    "revision": "67a2085fe19b446bfe4ea66720a17819"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
