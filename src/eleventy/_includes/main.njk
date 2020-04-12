@@ -30,7 +30,7 @@ relativeRoot: ./
   <body>
     <div id="root">
       <lbwc-app-bar
-          nav-links="{% for nav in collections.nav %}{{nav.data.title}}:{{nav.url}};{% endfor %}">
+          nav-links="{% for nav in collections.nav %}{{nav.data.name}}:{{nav.url}};{% endfor %}">
         <img src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="margin-bottom: 7.5px" alt="logo"/>
       </lbwc-app-bar>
       <main>

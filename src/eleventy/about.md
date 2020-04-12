@@ -1,6 +1,7 @@
 ---
 layout: main.njk
 title: About
+name: About
 relativeRoot: ../
 tags: nav
 date: 2020-04-03

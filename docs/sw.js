@@ -76,7 +76,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "49e3544d83362812971b6a81b76653eb"
+    "revision": "66a5795fe9fb7d973a145d19906b7ea3"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
