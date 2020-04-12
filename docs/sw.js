@@ -32,15 +32,15 @@ self.__precacheManifest = [
   },
   {
     "url": "android-chrome-192x192.png",
-    "revision": "24e250f11fbb1ec072cffb339af7de2a"
+    "revision": "5aac30c6f83d829e816957bfcb2bbbdb"
   },
   {
     "url": "android-chrome-512x512.png",
-    "revision": "9f723f3fa7629bad3598e29f1da66dd4"
+    "revision": "d05e3d87a96d0b0e5bb95f7953e2a2d2"
   },
   {
     "url": "apple-touch-icon.png",
-    "revision": "fd780272ca301980f0c4a85e319781a2"
+    "revision": "1455b1c7ae327e8ed5df5c5365387d26"
   },
   {
     "url": "assets/img/logo.png",
@@ -64,15 +64,15 @@ self.__precacheManifest = [
   },
   {
     "url": "favicon-16x16.png",
-    "revision": "102be6b3a285fe0d75449b75fd0902cd"
+    "revision": "9490e4f9572eece8726abd872c0da440"
   },
   {
     "url": "favicon-32x32.png",
-    "revision": "290d4a2b7e0e1cb746bed7dd3a0cf96b"
+    "revision": "db771d3fbba2436fb6706ca3299fbe4d"
   },
   {
     "url": "favicon.ico",
-    "revision": "86b924c30cd9e7eb4c0527f6282a509c"
+    "revision": "e2bfc41e4683bb576062e5dcf567e341"
   },
   {
     "url": "index.html",
