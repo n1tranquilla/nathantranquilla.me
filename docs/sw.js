@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "9dc43de83511d669b0a81773e0213762"
+    "revision": "bdc962b9a4e7f434ddfbfc9450bf2a0d"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/critical.bundle.js",
-    "revision": "e050eda3f92afc6ed09e1cfac6a14dd9"
+    "revision": "2095d8c8a1894d46e9539a4cd40db457"
   },
   {
     "url": "assets/js/deferable.bundle.js",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "784bef8c7179fb59ad748686aa607e19"
+    "revision": "ad5b6f3206ddd5fdc3ce97444edf5cdc"
   },
   {
     "url": "favicon-16x16.png",
@@ -76,27 +76,35 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "442196f7a907b5fbf1132467eaf06cc8"
+    "revision": "9002e43d68cb97240ade473c21f89ade"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
-    "revision": "149e32e3ad3e871cd978f5d28b0ed05d"
+    "revision": "b9e872e5cbb93d7d38fbebbeea782532"
   },
   {
     "url": "posts/index.html",
-    "revision": "e9662350295a3222bc0ce80ab0072da2"
+    "revision": "20129be31d7507e7fddb233e8435059c"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
-    "revision": "c8d4541229914826c770263578a46d88"
+    "revision": "442d196f484ce31cfe0aa1d19280639e"
   },
   {
     "url": "posts/the-covid-19-diaries-part-2/index.html",
-    "revision": "01fa512078f841004175252b4a77e709"
+    "revision": "03b0041acb7cd2a675d27fd35ead12fd"
   },
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
-    "revision": "67a2085fe19b446bfe4ea66720a17819"
+    "revision": "863a7cc3470fc0e2b82cc3ccf4f329e2"
+  },
+  {
+    "url": "reviews/index.html",
+    "revision": "0bc2ec57b6d1d94d6d625b9def8e73a0"
+  },
+  {
+    "url": "reviews/that-all-shall-be-saved/index.html",
+    "revision": "97bba89cbdcee30727f8fd45f1684731"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
