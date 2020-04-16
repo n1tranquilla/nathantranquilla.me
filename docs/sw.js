@@ -32,15 +32,15 @@ self.__precacheManifest = [
   },
   {
     "url": "android-chrome-192x192.png",
-    "revision": "5aac30c6f83d829e816957bfcb2bbbdb"
+    "revision": "3b2660bf175f108645eff1a9f86f830c"
   },
   {
     "url": "android-chrome-512x512.png",
-    "revision": "d05e3d87a96d0b0e5bb95f7953e2a2d2"
+    "revision": "f2e6b8de5a7dcd83c96c198560d5988c"
   },
   {
     "url": "apple-touch-icon.png",
-    "revision": "1455b1c7ae327e8ed5df5c5365387d26"
+    "revision": "5d9ee92428a4dd394a12d5dc5c29b797"
   },
   {
     "url": "assets/img/logo.png",
@@ -64,19 +64,23 @@ self.__precacheManifest = [
   },
   {
     "url": "favicon-16x16.png",
-    "revision": "9490e4f9572eece8726abd872c0da440"
+    "revision": "d92a1e41787973495309b3d3f8a7b510"
   },
   {
     "url": "favicon-32x32.png",
-    "revision": "db771d3fbba2436fb6706ca3299fbe4d"
+    "revision": "b2aae108f4be7f1e4d7783800f00f793"
   },
   {
     "url": "favicon.ico",
-    "revision": "e2bfc41e4683bb576062e5dcf567e341"
+    "revision": "94095262a8dd1036152edacb0bc7b92b"
   },
   {
     "url": "index.html",
     "revision": "21adf361808751295a9404c02e364fe4"
+  },
+  {
+    "url": "mstile-150x150.png",
+    "revision": "164feaacfbe196ef4963c68d37edc418"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
@@ -101,6 +105,10 @@ self.__precacheManifest = [
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
     "revision": "f76a67026b53ac8e80cdf1ab29fd0fbe"
+  },
+  {
+    "url": "safari-pinned-tab.svg",
+    "revision": "0a4cc77a476fa14a7101b5677dddbadc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
