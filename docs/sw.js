@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/critical.bundle.js",
-    "revision": "e050eda3f92afc6ed09e1cfac6a14dd9"
+    "revision": "2095d8c8a1894d46e9539a4cd40db457"
   },
   {
     "url": "assets/js/deferable.bundle.js",
@@ -60,7 +60,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "784bef8c7179fb59ad748686aa607e19"
+    "revision": "eea63d25cc1e69e6ec463dae4b4cef52"
   },
   {
     "url": "favicon-16x16.png",
@@ -76,7 +76,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "442196f7a907b5fbf1132467eaf06cc8"
+    "revision": "21adf361808751295a9404c02e364fe4"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/index.html",
-    "revision": "e9662350295a3222bc0ce80ab0072da2"
+    "revision": "ad546b478513d75923f0d2a11a6c312d"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
@@ -97,6 +97,10 @@ self.__precacheManifest = [
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
     "revision": "67a2085fe19b446bfe4ea66720a17819"
+  },
+  {
+    "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
+    "revision": "f76a67026b53ac8e80cdf1ab29fd0fbe"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
