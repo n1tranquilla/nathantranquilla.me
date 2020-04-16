@@ -5,7 +5,7 @@ teaser: We're getting outside a lot more these days to enjoy the sunshine.
 date: 2020-04-09
 tags:
   - covid-19 diaries
-  - post
+  - blog
 ---
 We're getting outside a lot more these days to enjoy the sunshine. My daughter and I often go out during the evenings after work to enjoy a bike ride, which I know she enjoys. As you can see, there is still snow on the ground so we all have to bundle up. 
 

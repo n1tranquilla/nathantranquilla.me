@@ -31,23 +31,24 @@ relativeRoot: ./
     <div id="root">
       <lbwc-app-bar>
         <img slot="logo" src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
-        {% for nav in collections.nav %}
-          <lbwc-nav-link role="link" slot="nav-links" href="{{nav.url}}">{{nav.data.name}}</lbwc-nav-link>
-        {% endfor %}
+        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}">Home</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}collections/blog/">Blog</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}collections/book-reviews/">Reviews</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}about/">About</lbwc-nav-link>
       </lbwc-app-bar>
       <main>
         {{ content | safe }}
         {% if includeIndex %}
             {% if content %} <hr/> {% endif %}
-            <lbwc-index-page role="list" title="Posts"> 
-            {% for post in collections.post | reverse %}
+            <lbwc-index-page role="list" title="Recent Posts"> 
+            {% for post in collections.all | reverse %}
               <lbwc-list-entry 
                 role="listitem"
                 title="{{post.data.title}}"
                 href="{{post.url}}"
                 date="{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}}"
                 teaser="{{post.data.teaser}}">
-                {% for tag in post.data.tags | tagExclude("post") %}
+                {% for tag in post.data.tags %}
                   <lbwc-tag role="link" href="/collections/{{ tag | slug }}" name="{{tag}}"></lbwc-tag>
                 {% endfor %}
               </lbwc-list-entry>

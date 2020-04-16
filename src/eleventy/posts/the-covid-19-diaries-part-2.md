@@ -5,7 +5,7 @@ date: 2020-04-04T12:00:00.000Z
 teaser: I learned to cut my own hair this past week it turned out ok. I was fortunate enough to have a clipper set
 tags:
   - covid-19 diaries
-  - post
+  - blog
 ---
 I learned to cut my own hair this past week; it turned out ok. I was fortunate enough to have a clipper set and I have a simple-enough fade on the sides that I can probably skip a few haircuts. It has me thinking about what is truly necessary in life, and how much of our lifestyle is truly disposable. 
 

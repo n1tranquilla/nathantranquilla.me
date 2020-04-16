@@ -6,11 +6,12 @@ pagination:
     alias: tag
 permalink: "/collections/{{ tag.name | slug }}/"
 relativeRoot: ../../../
+eleventyExcludeFromCollections: true
 description: Lists posts on a topic
 ---  
 {% set collection = tag.tag %}
 <lbwc-index-page title="{{ tag.name }}">
-{% for post in collections.post | reverse %}
+{% for post in collections.all | tagFilter(collection) | reverse %}
     <lbwc-list-entry 
         title="{{post.data.title}}"
         href="{{post.url}}"

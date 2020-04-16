@@ -3,8 +3,8 @@ layout: main.njk
 title: nathantranquilla.me
 name: Home
 relativeRoot: ./
-tags: nav
 includeIndex: true
+eleventyExcludeFromCollections: true
 date: 2020-04-01
 ---
 

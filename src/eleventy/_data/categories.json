@@ -2,5 +2,13 @@
     {
         "name": "COVID-19 Diaries",
         "tag": "covid-19 diaries"
+    },
+    {
+        "name": "Blog",
+        "tag": "blog"
+    },
+    {
+        "name":"Book reviews",
+        "tag": "book reviews"
     }
 ]
