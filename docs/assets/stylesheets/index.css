@@ -1,0 +1,75 @@
+:root {
+    --lbwc-spacing-unit: 1; 
+
+    --lbwc-primary-color: #FFFFFF;
+    --lbwc-accent-color: #00ff00;
+
+    --lbwc-text-color: #000000;
+    --lbwc-nav-font-family: 'Ubuntu', sans-serif;
+    --lbwc-title-font-family: 'Ubuntu', sans-serif;
+    --lbwc-body-font-family: 'Open Sans', sans-serif;
+
+    --lbwc-decoration-box-shadow: -2px 0 2px var(--lbwc-accent-color);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--lbwc-body-font-family);
+    letter-spacing: 1px;
+}
+
+body {
+    overflow-y: scroll;
+}
+
+#root {
+    padding: 0.5rem;
+    width: 100vw;
+    max-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin: 0 auto;
+    padding-bottom: 5rem;
+}
+
+lbwc-app-bar {
+    margin-bottom: calc(var(--lbwc-spacing-unit)*1rem);
+}
+
+p {
+    margin: calc(var(--lbwc-spacing-unit)*1rem) 0;
+    font-size: 0.85rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--lbwc-title-font-family);
+}
+h1 {
+    font-size: 1.2rem;
+}
+h2 {
+    font-size: 1.1rem;
+}
+h3,h4,h5,h6 {
+    font-size: 1.05rem;
+}
+
+code {
+    background: #f4f4f4;
+    border-left: 3px solid var(--lbwc-accent-color);
+    color: #666;
+    page-break-inside: avoid;
+    font-family: monospace;
+    font-size: 15px;
+    line-height: 1.6;
+    margin: calc(var(--lbwc-spacing-unit)*1rem) 0;
+    width: calc(100% - var(--lbwc-spacing-unit)*2rem);
+    overflow: auto;
+    padding: calc(var(--lbwc-spacing-unit)*1rem);
+    display: block;
+    word-wrap: break-word;
+}

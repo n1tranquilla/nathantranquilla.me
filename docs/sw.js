@@ -32,19 +32,35 @@ self.__precacheManifest = [
   },
   {
     "url": "android-chrome-192x192.png",
-    "revision": "5aac30c6f83d829e816957bfcb2bbbdb"
+    "revision": "3b2660bf175f108645eff1a9f86f830c"
   },
   {
     "url": "android-chrome-512x512.png",
-    "revision": "d05e3d87a96d0b0e5bb95f7953e2a2d2"
+    "revision": "f2e6b8de5a7dcd83c96c198560d5988c"
   },
   {
     "url": "apple-touch-icon.png",
-    "revision": "1455b1c7ae327e8ed5df5c5365387d26"
+    "revision": "5d9ee92428a4dd394a12d5dc5c29b797"
+  },
+  {
+    "url": "assets/img/logo.png",
+    "revision": "71b9eaca076dd175967ada710fdf6c08"
+  },
+  {
+    "url": "assets/js/critical.bundle.js",
+    "revision": "2095d8c8a1894d46e9539a4cd40db457"
+  },
+  {
+    "url": "assets/js/deferable.bundle.js",
+    "revision": "92dd07f97f4da6c3dcaf222db4677bb2"
+  },
+  {
+    "url": "assets/stylesheets/index.css",
+    "revision": "69ab94fc227083121383c155bf3252a4"
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "1d3f435544890e3e587d15f1076cbd1d"
+    "revision": "6965253e956a9c7d0ac92d47704a7a63"
   },
   {
     "url": "collections/book-reviews/index.html",
@@ -56,19 +72,23 @@ self.__precacheManifest = [
   },
   {
     "url": "favicon-16x16.png",
-    "revision": "9490e4f9572eece8726abd872c0da440"
+    "revision": "d92a1e41787973495309b3d3f8a7b510"
   },
   {
     "url": "favicon-32x32.png",
-    "revision": "db771d3fbba2436fb6706ca3299fbe4d"
+    "revision": "b2aae108f4be7f1e4d7783800f00f793"
   },
   {
     "url": "favicon.ico",
-    "revision": "e2bfc41e4683bb576062e5dcf567e341"
+    "revision": "a4672a2ba4ce7aed5dceddbe6d9babd5"
   },
   {
     "url": "index.html",
-    "revision": "7a4ddeb2614f7f2990a91e45c5b0dc1c"
+    "revision": "d4b433ed0a3e3a740bcc436ce48cec31"
+  },
+  {
+    "url": "mstile-150x150.png",
+    "revision": "164feaacfbe196ef4963c68d37edc418"
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
@@ -87,8 +107,16 @@ self.__precacheManifest = [
     "revision": "9ce350a3c64b9c6b4d9a5c1848dd6e04"
   },
   {
+    "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
+    "revision": "a96e12ea586bdf932d55878c027810d9"
+  },
+  {
     "url": "reviews/that-all-shall-be-saved/index.html",
     "revision": "4cfaa0eb72429ad6b54222afcee23da4"
+  },
+  {
+    "url": "safari-pinned-tab.svg",
+    "revision": "0a4cc77a476fa14a7101b5677dddbadc"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
