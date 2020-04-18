@@ -43,22 +43,6 @@ self.__precacheManifest = [
     "revision": "1455b1c7ae327e8ed5df5c5365387d26"
   },
   {
-    "url": "assets/img/logo.png",
-    "revision": "71b9eaca076dd175967ada710fdf6c08"
-  },
-  {
-    "url": "assets/js/critical.bundle.js",
-    "revision": "2095d8c8a1894d46e9539a4cd40db457"
-  },
-  {
-    "url": "assets/js/deferable.bundle.js",
-    "revision": "92dd07f97f4da6c3dcaf222db4677bb2"
-  },
-  {
-    "url": "assets/stylesheets/index.css",
-    "revision": "69ab94fc227083121383c155bf3252a4"
-  },
-  {
     "url": "collections/blog/index.html",
     "revision": "1d3f435544890e3e587d15f1076cbd1d"
   },
