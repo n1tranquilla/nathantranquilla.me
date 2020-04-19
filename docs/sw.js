@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "806d242b3194485fd533c4a1b458c227"
+    "revision": "8734bc3e4809a77193795a3072c0e17a"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -64,23 +64,23 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "f3c439a4d8df4e96fc129395fe761a73"
+    "revision": "31b1b0f202cc2f3382476392219df02c"
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "a3da66c68beb5f00a05e8043682f877d"
+    "revision": "7ec0978946f7b80e9ab5a58387bee83f"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "19b88cebc3d4c88f42da7a270d8f5183"
+    "revision": "7a1716f70edc14e0c2862d58e6acdeff"
   },
   {
     "url": "collections/philosophy/index.html",
-    "revision": "189a6134b1c33517df0aefff4815a873"
+    "revision": "c6958dfd87a87789686d476a421c8af2"
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "6eb6e43327d41dc811227973b3c1bd34"
+    "revision": "d5d2daffe8ac6d607b02b998d3d61b4d"
   },
   {
     "url": "favicon-16x16.png",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "0cb4c0ecc110b4e43a6ed7ee3b84c782"
+    "revision": "e82c36f69f88e90416ba6176c54597dc"
   },
   {
     "url": "mstile-150x150.png",
@@ -104,27 +104,27 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
-    "revision": "55f8221bd50b3e000062f24e7e727993"
+    "revision": "021c2d9869857e2017674979ddd2a173"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
-    "revision": "4014e2d05cb991a1d0b401f45c499699"
+    "revision": "b6d59d72eb8cb07370dcce7f1185e5f6"
   },
   {
     "url": "posts/the-covid-19-diaries-part-2/index.html",
-    "revision": "e2ae58f2736d586490e5ec37b7cc1b44"
+    "revision": "a16b7381e306124b5098e907e6432971"
   },
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
-    "revision": "c72e43ffdc75d10b7f7183e2dbedc917"
+    "revision": "14933ecced0f4a01cfedbd60b141cae2"
   },
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
-    "revision": "5543a582e7a54083caa0b105cf6d3863"
+    "revision": "cf5ff9b8899c1b7152518289b184f6e2"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
-    "revision": "7cf9e9dc269866c7b955bb40cbc186e6"
+    "revision": "50f171578cb5d900bca7fc3b1b09ee79"
   },
   {
     "url": "safari-pinned-tab.svg",
