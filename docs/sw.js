@@ -124,7 +124,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
-    "revision": "50f171578cb5d900bca7fc3b1b09ee79"
+    "revision": "204bbcf9c3d09dd4cfd9bd9408611dc7"
   },
   {
     "url": "safari-pinned-tab.svg",
