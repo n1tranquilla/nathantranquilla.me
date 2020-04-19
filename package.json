@@ -30,6 +30,6 @@
     "webpack-cli": "^3.3.11"
   },
   "dependencies": {
-    "lean-blog-web-components": "^0.8.2"
+    "lean-blog-web-components": "^0.8.4"
   }
 }

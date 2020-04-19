@@ -48,7 +48,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/critical.bundle.js",
-    "revision": "2095d8c8a1894d46e9539a4cd40db457"
+    "revision": "43bec403b72aa92955df4b75bfbef3cb"
   },
   {
     "url": "assets/js/deferable.bundle.js",
