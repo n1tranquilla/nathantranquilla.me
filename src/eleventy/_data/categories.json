@@ -10,5 +10,13 @@
     {
         "name":"Book reviews",
         "tag": "book reviews"
+    },
+    {
+        "name":"Religion",
+        "tag": "religion"
+    },
+    {
+        "name":"Philosophy",
+        "tag": "philosophy"
     }
 ]
