@@ -52,7 +52,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/deferable.bundle.js",
-    "revision": "92dd07f97f4da6c3dcaf222db4677bb2"
+    "revision": "8673ae6eb7f793422bb3be4b194e4665"
   },
   {
     "url": "assets/stylesheets/flex.css",
