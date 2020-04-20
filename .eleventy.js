@@ -14,6 +14,10 @@ module.exports = function(eleventyConfig) {
         });
     });
 
+    eleventyConfig.addNunjucksFilter("slice", function(value,index,length) {
+        return value.slice(index,length);
+    });
+
     eleventyConfig.addNunjucksFilter("tagExclude", function(value,tag) {
         return value.filter(t=>t!==tag);
     });

@@ -96,7 +96,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "e82c36f69f88e90416ba6176c54597dc"
+    "revision": "26d4144e1efec9a19636f55eef8bd4fc"
   },
   {
     "url": "mstile-150x150.png",

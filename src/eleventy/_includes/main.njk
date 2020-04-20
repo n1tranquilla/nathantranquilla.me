@@ -42,7 +42,7 @@ relativeRoot: ./
         {% if includeIndex %}
             {% if content %} <hr/> {% endif %}
             <lbwc-index-page role="list" title="Recent Posts"> 
-            {% for post in collections.all | reverse %}
+            {% for post in collections.all | reverse | slice(0,5) %}
               <lbwc-list-entry 
                 role="listitem"
                 title="{{post.data.title}}"
