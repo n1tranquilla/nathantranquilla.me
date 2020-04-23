@@ -25,7 +25,7 @@
     </script>
   </head>
   <body>
-    <div id="root">
+    <template id="mobile-template">
       <lbwc-app-bar mobile>
         <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
         <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
@@ -33,6 +33,17 @@
         <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
         <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
       </lbwc-app-bar>
+    </template>
+    <template id="desktop-template">
+      <lbwc-app-bar>
+        <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/blog/">Blog</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
+      </lbwc-app-bar>
+    </template>
+    <div id="root">
       <main>
         <lbwc-article title="What I am doing to overcome my plantar fasciitis" tags="" date="Apr. 16, 2020">
     <p>Plantar fasciitis is an inflammation of the fascia on the bottom of the foot, caused by overuse, and is injury that is present in a small percentage of active adults. My first experience with plantar fasciitis was caused by high-impact running, playing ultimate frisbee with new cleets on hard turf. My second experience was caused by doing some physio work attempting to address a knee injury, which involved some intense (too intense) stretching of the calves and achilles tendon, which put undue stress on the fascia of my foot.</p>
@@ -53,6 +64,7 @@
         
       </main>
     </div>
+    <script src="../../assets/js/appbar.bundle.js"></script>
   </body>
     
 </html>

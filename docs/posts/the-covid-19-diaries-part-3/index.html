@@ -25,7 +25,7 @@
     </script>
   </head>
   <body>
-    <div id="root">
+    <template id="mobile-template">
       <lbwc-app-bar mobile>
         <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
         <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
@@ -33,6 +33,17 @@
         <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
         <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
       </lbwc-app-bar>
+    </template>
+    <template id="desktop-template">
+      <lbwc-app-bar>
+        <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/blog/">Blog</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
+      </lbwc-app-bar>
+    </template>
+    <div id="root">
       <main>
         <lbwc-article title="The COVID-19 Diaries - Part 3" tags="name:covid-19 diaries;href:/collections/covid-19-diaries;;" date="Apr. 5, 2020">
     <p>What was all the hurry about anyway? You know what I mean... before quarantine. It seems like I was running around always in a hurry, always pushing the speed limit just a little, getting upset if I didn't make that yellow light. It seems like Saturdays were always a whilwind of inventory, meal-planning, going grocery shopping, keeping the kids entertained somewhere, often the mall, and then returning home to unpack and settle in for the afternoon. But with the restrictions, we've elected one of us as the shopper to minimize the chance of exposure.</p>
@@ -44,6 +55,7 @@
         
       </main>
     </div>
+    <script src="../../assets/js/appbar.bundle.js"></script>
   </body>
     
 </html>

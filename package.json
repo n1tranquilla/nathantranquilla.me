@@ -4,9 +4,9 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack && eleventy --input=src/eleventy --formats=md,njk,json --output=docs/",
+    "build": "webpack && eleventy --input=src/eleventy --formats=md,njk,json,html --output=docs/",
     "prestart": "webpack",
-    "start": "eleventy --serve --input=src/eleventy --formats=md,njk,json --output=docs/"
+    "start": "eleventy --serve --input=src/eleventy --formats=md,njk,json,html --output=docs/"
   },
   "repository": {
     "type": "git",

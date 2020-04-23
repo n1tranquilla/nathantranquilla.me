@@ -10,7 +10,8 @@ module.exports = {
   mode: 'development',
   entry: {
       critical: './src/webpack/assets/js/index.js',
-      deferable: './src/webpack/assets/js/deferable.js'
+      deferable: './src/webpack/assets/js/deferable.js',
+      appbar: './src/webpack/assets/js/app-bar.js'
   },
   output: {
     filename: 'assets/js/[name].bundle.js',

@@ -25,7 +25,7 @@
     </script>
   </head>
   <body>
-    <div id="root">
+    <template id="mobile-template">
       <lbwc-app-bar mobile>
         <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
         <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
@@ -33,6 +33,17 @@
         <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
         <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
       </lbwc-app-bar>
+    </template>
+    <template id="desktop-template">
+      <lbwc-app-bar>
+        <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/blog/">Blog</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
+        <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
+      </lbwc-app-bar>
+    </template>
+    <div id="root">
       <main>
         <lbwc-article title="That all shall be saved - David Bentley Hart" tags="name:book reviews;href:/collections/book-reviews;;name:religion;href:/collections/religion;;name:philosophy;href:/collections/philosophy;;" date="Apr. 12, 2020">
     <p><em>That All shall be saved</em> by David Bentley Hart is series of four meditations, of a philosophical, logical, and scriptural nature, that answer, to the author's satisfaction, the two main questions he have bothered him through the years concerning the variations of &quot;infernalism&quot;. Can a finite, rational creature freely reject God, and to do so with eternal finality, and can a God who creates a world where the possibility of eternal, unending torment be not only be good, but the essence of Good itself?</p>
@@ -84,6 +95,7 @@
         
       </main>
     </div>
+    <script src="../../assets/js/appbar.bundle.js"></script>
   </body>
     
 </html>
