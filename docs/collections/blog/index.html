@@ -39,6 +39,13 @@
 <lbwc-index-page title="Blog">
 
     <lbwc-list-entry 
+        title="The COVID-19 Diaries - The mentality in the United States"
+        href="/posts/the-covid-19-diaries-the-mentality-in-the-united-states/"
+        date="Apr. 23, 2020"
+        teaser="">
+    </lbwc-list-entry>
+
+    <lbwc-list-entry 
         title="What I am doing to overcome my plantar fasciitis"
         href="/posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/"
         date="Apr. 16, 2020"
@@ -66,13 +73,24 @@
         teaser="I learned to cut my own hair this past week it turned out ok. I was fortunate enough to have a clipper set">
     </lbwc-list-entry>
 
-    <lbwc-list-entry 
-        title="The COVID-19 Diaries - Part 1"
-        href="/posts/the-covid-19-diaries-part-1/"
-        date="Apr. 1, 2020"
-        teaser="Life is certainly much different than it was a month ago. One month ago I was making plans for a work trip to Virginia.">
-    </lbwc-list-entry>
 
+<a id="loadmore" href="#" onclick="loadmore(); return false;">load 1 more</a>
+<script type="text/javascript">
+    function loadmore(){
+        const indexpage=document.querySelector('lbwc-index-page');
+        indexpage.insertAdjacentHTML('beforeend',`
+        
+            <lbwc-list-entry 
+                title="The COVID-19 Diaries - Part 1"
+                href="/posts/the-covid-19-diaries-part-1/"
+                date="Apr. 1, 2020"
+                teaser="Life is certainly much different than it was a month ago. One month ago I was making plans for a work trip to Virginia.">
+            </lbwc-list-entry>
+        
+        `)
+        document.getElementById("loadmore").remove()
+    }
+</script>
 
 </lbwc-index-page>
 

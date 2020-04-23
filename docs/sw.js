@@ -47,6 +47,10 @@ self.__precacheManifest = [
     "revision": "71b9eaca076dd175967ada710fdf6c08"
   },
   {
+    "url": "assets/img/mindblown.gif",
+    "revision": "34a0a23b7fc5d16814adaa32518435ab"
+  },
+  {
     "url": "assets/js/critical.bundle.js",
     "revision": "43bec403b72aa92955df4b75bfbef3cb"
   },
@@ -64,7 +68,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "21ecc6b784a543b0b76c8cf6694f6b55"
+    "revision": "ed4112b3a30c6c8f3a15e28084b3a7da"
   },
   {
     "url": "collections/book-reviews/index.html",
@@ -72,7 +76,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "051e3a6ea38cf294bee2e58f43e1482e"
+    "revision": "e815370c1b7628108015574ddac061fb"
   },
   {
     "url": "collections/philosophy/index.html",
@@ -96,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "26d4144e1efec9a19636f55eef8bd4fc"
+    "revision": "b2c8b715def89716cb5c2be88ef31b6b"
   },
   {
     "url": "mstile-150x150.png",
@@ -117,6 +121,10 @@ self.__precacheManifest = [
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
     "revision": "14933ecced0f4a01cfedbd60b141cae2"
+  },
+  {
+    "url": "posts/the-covid-19-diaries-the-mentality-in-the-united-states/index.html",
+    "revision": "cdc8b93f3e6bd5710f4ccd49e3a3d15b"
   },
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
