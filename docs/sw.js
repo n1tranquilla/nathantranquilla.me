@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "8734bc3e4809a77193795a3072c0e17a"
+    "revision": "995f3f3edec8cf8c16bcfbd4261f49df"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/stylesheets/index.css",
-    "revision": "69ab94fc227083121383c155bf3252a4"
+    "revision": "2c0734d279193328eb4e3b53194ebbd6"
   },
   {
     "url": "collections/blog/index.html",
