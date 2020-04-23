@@ -22,5 +22,5 @@ But the news outlets are reporting something even more sinister; paranoia and pr
 
 It is hard to explain why this is. I have often remarked before that American news has so much more fear-for-content than Canadian outlets; I have mistaken this for "excitement" in the past.The United States seems to exist in a media bubble, where citizens strongly distrust outside news sources, and recently for inside news sources that do not conform to the political views of the viewer. The partisan atmosphere following the impeachment of Donald Trump has only exacerbated this problem, as his can been a campaign of "theys" and "thems". 
 
-Hopefully America is able to get out from under this problem, but it would seem for America, given the rate of growth of the virus among it's population, it will be many months before this over.  
+Let's hope that our friends south of the border are able to overcome this mentality and focus on what is important during the pandemic - the public health. 
 

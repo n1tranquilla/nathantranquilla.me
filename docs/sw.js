@@ -124,7 +124,7 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/the-covid-19-diaries-the-mentality-in-the-united-states/index.html",
-    "revision": "cdc8b93f3e6bd5710f4ccd49e3a3d15b"
+    "revision": "d4a6ec1db86c52876c29d2f56aa5ba0c"
   },
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
