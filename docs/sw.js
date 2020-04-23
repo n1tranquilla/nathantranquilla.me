@@ -64,23 +64,23 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "31b1b0f202cc2f3382476392219df02c"
+    "revision": "21ecc6b784a543b0b76c8cf6694f6b55"
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "7ec0978946f7b80e9ab5a58387bee83f"
+    "revision": "1e903bd212fa1622b7a2d5bbb3caf365"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "7a1716f70edc14e0c2862d58e6acdeff"
+    "revision": "051e3a6ea38cf294bee2e58f43e1482e"
   },
   {
     "url": "collections/philosophy/index.html",
-    "revision": "c6958dfd87a87789686d476a421c8af2"
+    "revision": "52f2709119c71142cb94a69ec70df977"
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "d5d2daffe8ac6d607b02b998d3d61b4d"
+    "revision": "c85f5b0afc3e80890290d19673783228"
   },
   {
     "url": "favicon-16x16.png",
