@@ -6,19 +6,24 @@ const root = document.getElementById("root");
 const appbar = temp.content.cloneNode(true);
 root.prepend(appbar);
 
-const getAppBar = () => {
-    return document.querySelector('lbwc-app-bar');
-}
-
-const handleMediaQuery = (mediaQuery) => {
-    
-    if(mediaQuery.matches && !getAppBar().hasAttribute('mobile')) {    
-        getAppBar().setAttribute('mobile','');
+document.addEventListener("DOMContentLoaded", function(event){
+    const getAppBar = () => {
+        return document.querySelector('lbwc-app-bar');
     }
     
-    if(!mediaQuery.matches && getAppBar().hasAttribute('mobile')) {
-        getAppBar().removeAttribute('mobile')
+    
+    const handleMediaQuery = (mediaQuery) => {
+        
+        if(mediaQuery.matches && !getAppBar().hasAttribute('mobile')) {    
+            getAppBar().setAttribute('mobile','');
+        }
+        
+        if(!mediaQuery.matches && getAppBar().hasAttribute('mobile')) {
+            getAppBar().removeAttribute('mobile')
+        }
     }
-}
+    
+    mq.addListener(handleMediaQuery);    
+    
+});
 
-mq.addListener(handleMediaQuery);

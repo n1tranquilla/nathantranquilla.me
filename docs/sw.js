@@ -52,11 +52,11 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/appbar.bundle.js",
-    "revision": "1caf83acb222f89f8d27d078f5ac396e"
+    "revision": "66616854459c59bed35a6725998d87fb"
   },
   {
     "url": "assets/js/critical.bundle.js",
-    "revision": "c4ce36915be6451c3443da0508fc72fd"
+    "revision": "e7ab0fb547e4155a50b7cf5f3378e895"
   },
   {
     "url": "assets/js/deferable.bundle.js",
