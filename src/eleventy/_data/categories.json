@@ -18,5 +18,9 @@
     {
         "name":"Philosophy",
         "tag": "philosophy"
+    },
+    {
+        "name":"Opinion",
+        "tag": "opinion"
     }
 ]

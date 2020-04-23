@@ -79,6 +79,10 @@ self.__precacheManifest = [
     "revision": "e815370c1b7628108015574ddac061fb"
   },
   {
+    "url": "collections/opinion/index.html",
+    "revision": "2c9d0344acf12b82c08a2207a363d81b"
+  },
+  {
     "url": "collections/philosophy/index.html",
     "revision": "52f2709119c71142cb94a69ec70df977"
   },
