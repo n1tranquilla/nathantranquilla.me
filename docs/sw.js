@@ -28,7 +28,7 @@ workbox.core.clientsClaim();
 self.__precacheManifest = [
   {
     "url": "about/index.html",
-    "revision": "7e2a3de2550875ee23c06464675c086f"
+    "revision": "63f0495ac0cf3260d1435ac19c684d5c"
   },
   {
     "url": "android-chrome-192x192.png",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/appbar.bundle.js",
-    "revision": "66616854459c59bed35a6725998d87fb"
+    "revision": "e19337d6a41ee211f28abaf2cf3d2461"
   },
   {
     "url": "assets/js/critical.bundle.js",
@@ -72,27 +72,27 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "99f167b510611b4514c176705033a702"
+    "revision": "6c5ce9f28a11a8e2d3d4a3b0cba2443a"
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "809b462d042ac09c7d9246a594e87c0f"
+    "revision": "e6964adf72ea02fc6c9fc7992245e26d"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "ac53b6140c8c1a9e00d6e929fd272d5c"
+    "revision": "96a070cdd8da3b84c1366f772297c76a"
   },
   {
     "url": "collections/opinion/index.html",
-    "revision": "4733dd4fbd29148e430595f44c096e2a"
+    "revision": "9f2cd18c81bf47e6fa49565a3f922af3"
   },
   {
     "url": "collections/philosophy/index.html",
-    "revision": "53896bb184f7e1fb363b1ecec82c2cf2"
+    "revision": "90853591c8a0724218a892cbc34f57f4"
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "280af10cfe1ef8a47dbd74c319ef9088"
+    "revision": "7a0b1b687943400df529201de3334546"
   },
   {
     "url": "favicon-16x16.png",
@@ -108,7 +108,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "c107f1e2ec3c933749c2a3a970467b83"
+    "revision": "1ca14ec8a12b9c44599ad6dc9b0382bf"
   },
   {
     "url": "mstile-150x150.png",
@@ -116,31 +116,31 @@ self.__precacheManifest = [
   },
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
-    "revision": "060af2581dbc456c9780af614cc3e9ab"
+    "revision": "34c9fcca6a7648d33d5bedbd13e5059f"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
-    "revision": "452817cfa3d278b4da1e911ac1f95226"
+    "revision": "bd790cd39976dede094606fcdd953f46"
   },
   {
     "url": "posts/the-covid-19-diaries-part-2/index.html",
-    "revision": "aae6dee1d015231d94e716a9ec22c70f"
+    "revision": "5833193bed068d3067d80777ec8d0106"
   },
   {
     "url": "posts/the-covid-19-diaries-part-3/index.html",
-    "revision": "baa7b72087454bc0518fba8640732a16"
+    "revision": "bc5d2dad0a24788ff84023e61673d58b"
   },
   {
     "url": "posts/the-covid-19-diaries-the-mentality-in-the-united-states/index.html",
-    "revision": "8d2f241986ee45f6fe34f7f382c669af"
+    "revision": "8ef371823fc851575c67d5c4aadbac4c"
   },
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
-    "revision": "1b4d5281242051ef0bb64e1e514c7abe"
+    "revision": "40030f367389d978760dffd9dd339082"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
-    "revision": "0e2e14ef03258bc8db4f9dd86e01e300"
+    "revision": "b707af94793933b511d179ffa5d513c6"
   },
   {
     "url": "safari-pinned-tab.svg",

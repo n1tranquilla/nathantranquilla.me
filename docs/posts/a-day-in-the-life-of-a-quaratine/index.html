@@ -25,7 +25,7 @@
     </script>
   </head>
   <body>
-    <template id="mobile-template">
+    <div id="root">
       <lbwc-app-bar mobile>
         <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
         <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
@@ -33,17 +33,6 @@
         <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
         <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
       </lbwc-app-bar>
-    </template>
-    <template id="desktop-template">
-      <lbwc-app-bar>
-        <img slot="logo" src="../../assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
-        <lbwc-nav-link role="link" slot="nav-links" href="../../">Home</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/blog/">Blog</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="../../collections/book-reviews/">Reviews</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="../../about/">About</lbwc-nav-link>
-      </lbwc-app-bar>
-    </template>
-    <div id="root">
       <main>
         <lbwc-article title="A day in the life of quarantines" tags="name:covid-19 diaries;href:/collections/covid-19-diaries;;" date="Apr. 8, 2020">
     <p>We're getting outside a lot more these days to enjoy the sunshine. My daughter and I often go out during the evenings after work to enjoy a bike ride, which I know she enjoys. As you can see, there is still snow on the ground so we all have to bundle up.</p>

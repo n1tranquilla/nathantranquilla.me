@@ -29,7 +29,7 @@ relativeRoot: ./
     </script>
   </head>
   <body>
-    <template id="mobile-template">
+    <div id="root">
       <lbwc-app-bar mobile>
         <img slot="logo" src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
         <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}">Home</lbwc-nav-link>
@@ -37,17 +37,6 @@ relativeRoot: ./
         <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}collections/book-reviews/">Reviews</lbwc-nav-link>
         <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}about/">About</lbwc-nav-link>
       </lbwc-app-bar>
-    </template>
-    <template id="desktop-template">
-      <lbwc-app-bar>
-        <img slot="logo" src="{{ relativeRoot }}assets/img/logo.png" height="22" width="210" style="margin:10px 0 6px 0" alt="logo"/>
-        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}">Home</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}collections/blog/">Blog</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}collections/book-reviews/">Reviews</lbwc-nav-link>
-        <lbwc-nav-link role="link" slot="nav-links" href="{{ relativeRoot }}about/">About</lbwc-nav-link>
-      </lbwc-app-bar>
-    </template>
-    <div id="root">
       <main>
         {{ content | safe }}
         {% if includeIndex %}
