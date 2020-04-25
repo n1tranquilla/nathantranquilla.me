@@ -55,6 +55,10 @@ self.__precacheManifest = [
     "revision": "e19337d6a41ee211f28abaf2cf3d2461"
   },
   {
+    "url": "assets/js/collection.bundle.js",
+    "revision": "b227360d3e8fc71afadf2b6539d9434e"
+  },
+  {
     "url": "assets/js/critical.bundle.js",
     "revision": "e7ab0fb547e4155a50b7cf5f3378e895"
   },
@@ -68,31 +72,31 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/stylesheets/index.css",
-    "revision": "2c0734d279193328eb4e3b53194ebbd6"
+    "revision": "4ee5054b51d5daabaa6965c5b2fd6332"
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "6c5ce9f28a11a8e2d3d4a3b0cba2443a"
+    "revision": "119871c9848313d3fcfe6bd584047fd4"
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "e6964adf72ea02fc6c9fc7992245e26d"
+    "revision": "8e84ef953275cfb52962359db1dedae1"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
-    "revision": "96a070cdd8da3b84c1366f772297c76a"
+    "revision": "61dae85829462b44161edfb1ae169380"
   },
   {
     "url": "collections/opinion/index.html",
-    "revision": "9f2cd18c81bf47e6fa49565a3f922af3"
+    "revision": "14572e2cef20ec2467b0206afad75231"
   },
   {
     "url": "collections/philosophy/index.html",
-    "revision": "90853591c8a0724218a892cbc34f57f4"
+    "revision": "8e84ef953275cfb52962359db1dedae1"
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "7a0b1b687943400df529201de3334546"
+    "revision": "8e84ef953275cfb52962359db1dedae1"
   },
   {
     "url": "favicon-16x16.png",

@@ -25,7 +25,6 @@
     "clean-webpack-plugin": "^3.0.0",
     "copy-webpack-plugin": "^5.1.1",
     "eleventy-plugin-pwa": "^1.0.8",
-    "glob": "^7.1.6",
     "webpack": "^4.42.1",
     "webpack-cli": "^3.3.11"
   },

@@ -9,33 +9,23 @@ relativeRoot: ../../../
 eleventyExcludeFromCollections: true
 description: Lists posts on a topic
 ---  
+<template id="ie-message">
+    <span>Please use a modern browser to view this page's content :)</span>
+</template>
+<lbwc-index-page>
 {% set collection = tag.tag %}
-<lbwc-index-page title="{{ tag.name }}">
-{% for post in collections[collection] | reverse | slice(0,5) %}
-    <lbwc-list-entry 
-        title="{{post.data.title}}"
-        href="{{post.url}}"
-        date="{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}}"
-        teaser="{{post.data.teaser}}">
-    </lbwc-list-entry>
+{% for post in collections[collection] | reverse %}
+<div class="template-holder">
+    <template>
+        <lbwc-list-entry 
+            title="{{post.data.title}}"
+            href="{{post.url}}"
+            date="{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}}"
+            teaser="{{post.data.teaser}}">
+        </lbwc-list-entry>
+    </template>
+</div>
 {% endfor %}
-{% if (collections[collection].length > 5) %}
-<a id="loadmore" href="#" onclick="loadmore(); return false;">load {{collections[collection].length-5}} more</a>
-<script type="text/javascript">
-    function loadmore(){
-        const indexpage=document.querySelector('lbwc-index-page');
-        indexpage.insertAdjacentHTML('beforeend',`
-        {% for post in collections[collection] | reverse | slice(5) %}
-            <lbwc-list-entry 
-                title="{{post.data.title}}"
-                href="{{post.url}}"
-                date="{{post.date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' })}}"
-                teaser="{{post.data.teaser}}">
-            </lbwc-list-entry>
-        {% endfor %}
-        `)
-        document.getElementById("loadmore").remove()
-    }
-</script>
-{% endif %}
 </lbwc-index-page>
+
+<script src="{{ relativeRoot }}assets/js/collection.bundle.js"></script>
