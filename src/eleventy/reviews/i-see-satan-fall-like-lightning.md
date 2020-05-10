@@ -19,4 +19,15 @@ Where the scandal comes into play is when our neighbor gives opposition to our d
 
 If this concept is so central to human behavior, why is it not mentioned in the New Testament? Girard's word for _scandal_ harkens to the teachings of Jesus, and he will argue in the next section that it plays a central role in Gospel discourse.
 
+## Chapter 2: _The cycle of mimetic violence_
+The purpose of this chapter is to sketch out the late phases of _mimetic rivalry_ and _mimetic contagion_ in the Gospel discourse. The characters involved - the crowd, the disciples, and Peter, the religious leaders, and Pilate himself - all succumb to the contagious hostility. 
 
+The crowd, who was favorable to Jesus upon his entry turn against him at he peak of the chaos. Peter, whose love is never in questions, is infected with the hostility. Pilate himself, whose motivations are to avoid a riot, understands that a victim must be given to pacify the crowd, and tries to offer up Barabbas, but yields Jesus in the end. Even the thieves on the cross become infected by the mimetic contagion. 
+
+What exactly is going on here? What is the connection between mimetic desire and the lynching of Jesus in the Gospel narrative. We can imagine that beyond a certain threshold, the object of desire in a mimetic conflict can be forgotten and the individuals turn against each other. But we can also imagine that opportunistic antagonists can be found when an impasse is reached and the scandal between individuals gets caught up in a larger scandal. 
+
+I think this is the sketch that Girard is painting in the Gospel texts; the late stages of conflict between individuals, communities, and nations, so polarized that at the height of the conflict, they mobilize against a single individual to restore peace. And that is precisely what happens in the accounts - peace temporarily restored between rivals (Pilate and Herod, for example). 
+
+It is this banal, anthropological interpretation to the crucifixion of Jesus which makes sense of Jesus' own references to the resemblances to his death and that of all the prophets before him, including John the Baptist, which has striking mimetic resemblances (I will leave this for the reader). Think of his parable of the vineyard as well. 
+
+In the end, what we discover is the cycle of conflict and temporary peace that starts with mimetic desire and ends in the lynching of a victim.
