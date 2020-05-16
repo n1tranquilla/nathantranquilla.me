@@ -64,7 +64,7 @@ self.__precacheManifest = [
   },
   {
     "url": "assets/js/deferable.bundle.js",
-    "revision": "8673ae6eb7f793422bb3be4b194e4665"
+    "revision": "65fdb8653c6b1d60cb840451e6e26875"
   },
   {
     "url": "assets/stylesheets/flex.css",
@@ -80,7 +80,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "8e84ef953275cfb52962359db1dedae1"
+    "revision": "5ddd7e924c8be00baabb1c60279e9d8d"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
@@ -96,7 +96,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "8e84ef953275cfb52962359db1dedae1"
+    "revision": "5ddd7e924c8be00baabb1c60279e9d8d"
   },
   {
     "url": "favicon-16x16.png",
@@ -112,7 +112,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "1ca14ec8a12b9c44599ad6dc9b0382bf"
+    "revision": "4fbd1cc72e9d5c67e445b60ee2f466b1"
   },
   {
     "url": "mstile-150x150.png",
@@ -141,6 +141,10 @@ self.__precacheManifest = [
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
     "revision": "40030f367389d978760dffd9dd339082"
+  },
+  {
+    "url": "reviews/i-see-satan-fall-like-lightning/index.html",
+    "revision": "a8247f3717912e72562565a843a3583d"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
