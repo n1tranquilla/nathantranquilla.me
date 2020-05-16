@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: I See Satan Fall Like Lightning - Rene Girard
-date: 2020-05-09 
+date: 2020-05-16
 tags:
   - book reviews
   - religion
@@ -54,3 +54,23 @@ Where do primitive cultures get the idea to ritualize sacrifice? Girard suggests
 The story of Cain an Abel provides for us a great example, at least is part. We see a crisis which is resolved by Cain killing Abel. He leaves to found his own city, with a warning: if anyone murders, a ritualized sacrificial murder of seven other victims will follow. It is this string of murders, stretching all the way back to Abel, that the gospels seem to reference when speaking of the murder of Abel to the murder of Zechariah. Here we see the founding of a social order based on ritual sacrifice, but with one difference. Unlike other mythology, the violence of human cultures and institutions is exposed in the story of Cain and Abel, although the clearest exposure of what is at the heart of human social order and power will not come until the Gospel stories.
 
 ## Section 3: _The Victory of the Cross_
+This section, with it's triumphal title, worried me coming out of the previous section. I found myself noting the similarities between Girard's myth and the Gospel stories. After all, was not Jerusalem a tinder box of political unrest and is not Jesus a convenient victim whose lynching postponed the destruction of Jerusalem? Was it not the religious leaders who recognized it was better for Jesus to die than the whole nation perish?. Did not enemies become friends on the day Jesus became the scapegoat? Is not Jesus first identified as problem, and demonized, only to be revealed as divine in the end of the story? What makes the gospels unique?
+
+Girard starts by pointing out that the bible has always sided with and told the stories of victims. There is a brilliant comparison and contrast between the story of King Oedipus and the biblical story of Joseph. Noting the similarities, it is precisely where they diverge that we discover what makes the stories of the Bible unique. The majority doesn't write the history of Joseph; inevitably his brothers, had they told the story, would have painted Joseph to be wrong. Instead the Bible takes the side and tells the story of the victim, Joseph. It is this exposure that the reader gets to the story of the victim, which is never told in myths, that is unique, in the history of violence. But what it also unique the refusal to make victims divine. In the story of Joseph, it is God's providence in the life of Joseph that is acknowledged, not the greatness or power of Joseph, although he holds sufficient position and power in the end that such a transformation is not hard to imagine to be possible.
+
+To summarize briefly what makes the cross victorious is the representation of what has never truly been represented in history: the mimetic convergence of all against one and triggering of the single victim mechanism. It is precisely this exposition that empties it of its power. 
+
+We now see in the cross the disarming of the principalities and powers, having been made a spectacle themselves in the cross (Col. 2:14-15). How have they been made a spectacle? Because the source of Satan's power depends on it being shrouded in darkness but is now revealed in the crucifixion story and broadcast in four Gospel accounts to the the world. 
+
+It is in the prayer of Jesus on the cross (_Father, forgive them for they know not what they do_) that we not only see God's forgiveness but also the acknowledgement that they did not understand the power of which they were under. We also hear in Peter's words in aActs the acknowledgement that what they did, both they and their leaders, they did in ignorance. Of what were they ignorant? The unconsciousness, contagious mimetic process causing them to all act against the person of Jesus Christ.
+
+The satanic mechanism of contagious unanimous violence begins its reversal three days later, starting with the women in the garden, and then the disciples, and then to many others. The disciples, having succumbed to the contagion themselves, experience a sudden change of mind claiming to have seen the risen Christ. It is as if we witness Satan attempt to consume what is divine, only to expel what could never be consumed in the end. Truly, "if the princes of this world had known [the wisdom of God], they would not have crucified the Lord of Glory" 1 Cor 2:8. Indeed, because of the crucifixion, what was previously hidden and unconscious is now broadcast for all to see. 
+
+Even if we do not all understand this on a conscious level, because of Christ's solidarity with victims, we can no longer follow Jesus and ignore victims. His story is the story of all that have been victimized. Girard does discuss in the end of the book how the world has changed since crucifixion with regard to the disappearance of archaic religion. He spends some time probing into what scapegoating, although attenuated, looks like in our modern world. The last part, he discusses the modern concern for victims, and where it has come from. No surprises here, he ties it back to the Gospel narratives and spread of Christianity. 
+
+## Conclusion
+If you decide to read this book, take the first three chapters slow; they are foundational to the rest of the book. I found this anthropological view of violence in the Bible and in the Gospel texts illuminating. Girard's perspective is fresh, and the definitions he assigns to some biblical texts have more meaning than I previously thought. 
+
+<div class="flex-row flex-row--center-justified" style="padding: 1rem;">
+  <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=nathantranqui-20&language=en_CA&o=15&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=1570753199&linkId=b95a2e9bc9d1fded27d842ea014a8976"></iframe>
+</div>
