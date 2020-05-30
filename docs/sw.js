@@ -76,7 +76,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/blog/index.html",
-    "revision": "119871c9848313d3fcfe6bd584047fd4"
+    "revision": "dee06a987846f73287b7226662fb824e"
   },
   {
     "url": "collections/book-reviews/index.html",
@@ -85,6 +85,10 @@ self.__precacheManifest = [
   {
     "url": "collections/covid-19-diaries/index.html",
     "revision": "61dae85829462b44161edfb1ae169380"
+  },
+  {
+    "url": "collections/home-maintenance/index.html",
+    "revision": "ca3d31e2d6a6099f694977389adf56ad"
   },
   {
     "url": "collections/opinion/index.html",
@@ -112,7 +116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "4fbd1cc72e9d5c67e445b60ee2f466b1"
+    "revision": "46e803f9b20b9cb3f07f1d3d2535be56"
   },
   {
     "url": "mstile-150x150.png",
@@ -121,6 +125,10 @@ self.__precacheManifest = [
   {
     "url": "posts/a-day-in-the-life-of-a-quaratine/index.html",
     "revision": "34c9fcca6a7648d33d5bedbd13e5059f"
+  },
+  {
+    "url": "posts/stripping-and-reshingling-side-of-house/index.html",
+    "revision": "68e2bd1bb75975e56d41dc3d4c141218"
   },
   {
     "url": "posts/the-covid-19-diaries-part-1/index.html",
@@ -144,7 +152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/i-see-satan-fall-like-lightning/index.html",
-    "revision": "a8247f3717912e72562565a843a3583d"
+    "revision": "6a5cca0aadd5dfe566956bbc9b4f32c3"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
