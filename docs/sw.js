@@ -80,7 +80,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "5ddd7e924c8be00baabb1c60279e9d8d"
+    "revision": "d24805146cef57f5913601941bfacf4c"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "5ddd7e924c8be00baabb1c60279e9d8d"
+    "revision": "d24805146cef57f5913601941bfacf4c"
   },
   {
     "url": "favicon-16x16.png",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "46e803f9b20b9cb3f07f1d3d2535be56"
+    "revision": "663b792192ec050ce57ec83e7adb0d11"
   },
   {
     "url": "mstile-150x150.png",
@@ -149,6 +149,10 @@ self.__precacheManifest = [
   {
     "url": "posts/what-i-am-doing-to-overcome-my-plantar-fasciitis/index.html",
     "revision": "40030f367389d978760dffd9dd339082"
+  },
+  {
+    "url": "reviews/how-god-became-king/index.html",
+    "revision": "bf539676fd7f391e220b561593a66ab0"
   },
   {
     "url": "reviews/i-see-satan-fall-like-lightning/index.html",

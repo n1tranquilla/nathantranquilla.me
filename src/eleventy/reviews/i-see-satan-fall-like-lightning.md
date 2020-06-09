@@ -2,6 +2,7 @@
 layout: post.njk
 title: I See Satan Fall Like Lightning - Rene Girard
 date: 2020-05-16
+teaser: I See Satan Fall like lightning is first and foremost a anthropological study of biblical texts and Christian traditions 
 tags:
   - book reviews
   - religion
