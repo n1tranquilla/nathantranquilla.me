@@ -152,7 +152,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/how-god-became-king/index.html",
-    "revision": "bf539676fd7f391e220b561593a66ab0"
+    "revision": "58de22601cadd1f9542655b0e9e9bf4c"
   },
   {
     "url": "reviews/i-see-satan-fall-like-lightning/index.html",

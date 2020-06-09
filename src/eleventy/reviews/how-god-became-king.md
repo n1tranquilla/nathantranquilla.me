@@ -17,6 +17,8 @@ What is clearly brought into focus is the call to take up the cross and follow J
 
 Where this book stops short is answering the question of what's next. It more or less lays the groundwork for correcting our thinking that we will one day be snatched away from this earth (cross without kingdom) or that our mission is the social-gospel agenda (kingdom without cross). This is a must-read for anyone hungering for their true purpose. 
 
+Incidentally, there is a much better overview of his book here: <a href="https://youtu.be/Mks4gYcjpXc?t=295">https://youtu.be/Mks4gYcjpXc?t=295</a>
+
 <div class="flex-row flex-row--center-justified" style="padding: 1rem;">
 <iframe style="width:120px;height:240px;" marginwidth="0" marginheight="0" scrolling="no" frameborder="0" src="//rcm-na.amazon-adsystem.com/e/cm?lt1=_blank&bc1=000000&IS2=1&bg1=FFFFFF&fc1=000000&lc1=0000FF&t=nathantranqui-20&language=en_CA&o=15&p=8&l=as4&m=amazon&f=ifr&ref=as_ss_li_til&asins=B006QB98NC&linkId=fb30bdb3deb92c05086e592c8107f9fc"></iframe>
 </div>
