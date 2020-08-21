@@ -80,7 +80,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/book-reviews/index.html",
-    "revision": "d24805146cef57f5913601941bfacf4c"
+    "revision": "d427f50d487db736de0683fb20a00b5e"
   },
   {
     "url": "collections/covid-19-diaries/index.html",
@@ -100,7 +100,7 @@ self.__precacheManifest = [
   },
   {
     "url": "collections/religion/index.html",
-    "revision": "d24805146cef57f5913601941bfacf4c"
+    "revision": "d427f50d487db736de0683fb20a00b5e"
   },
   {
     "url": "favicon-16x16.png",
@@ -116,7 +116,7 @@ self.__precacheManifest = [
   },
   {
     "url": "index.html",
-    "revision": "663b792192ec050ce57ec83e7adb0d11"
+    "revision": "95b2f5a19793caf4bf74c374bcdf142b"
   },
   {
     "url": "mstile-150x150.png",
@@ -157,6 +157,10 @@ self.__precacheManifest = [
   {
     "url": "reviews/i-see-satan-fall-like-lightning/index.html",
     "revision": "6a5cca0aadd5dfe566956bbc9b4f32c3"
+  },
+  {
+    "url": "reviews/surprised-by-hope/index.html",
+    "revision": "79624ac6030a0bff37e10368da6beaaa"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
