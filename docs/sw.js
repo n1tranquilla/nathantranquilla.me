@@ -160,7 +160,7 @@ self.__precacheManifest = [
   },
   {
     "url": "reviews/surprised-by-hope/index.html",
-    "revision": "79624ac6030a0bff37e10368da6beaaa"
+    "revision": "2efa13d89161db5abfaf250067218246"
   },
   {
     "url": "reviews/that-all-shall-be-saved/index.html",
